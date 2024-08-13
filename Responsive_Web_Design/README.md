@@ -8,5 +8,8 @@ Finally, you'll learn how to make webpages that respond to different screen size
 
 Projects
 ---  
+- [Practice project 1](CatPhotoApp) - Cat Photo App
 
-- [Project 1](Survey_Form) - Survey Form
+- [Certification project 1](Survey_Form) - Survey Form
+
+
