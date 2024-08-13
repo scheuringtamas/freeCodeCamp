@@ -26,4 +26,4 @@ Fulfill the user stories and pass all the tests below to complete this project. 
 **Note:** Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS.
 
 ## Screenshots
-<img src="Survey_Form/screenshots/surveyForm.png" width="3000"/>
+<img src="/Responsive_Web_Design/Survey_Form/screenshots/surveyForm.png" width="3000"/>
