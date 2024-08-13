@@ -12,4 +12,6 @@ Projects
 
 - [Certification project 1](Survey_Form) - Survey Form
 
+- [Practice project 2](CafeMenu) - Cafe Menu
+
 
