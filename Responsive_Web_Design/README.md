@@ -10,8 +10,10 @@ Projects
 ---  
 - [Practice project 1](CatPhotoApp) - Cat Photo App
 
-- [Certification project 1](Survey_Form) - Survey Form
-
 - [Practice project 2](CafeMenu) - Cafe Menu
+
+- [Practice project 3](ColoredMarkers) - Set of Colored Markers
+
+- [Certification project 1](Survey_Form) - Survey Form
 
 
