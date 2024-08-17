@@ -14,6 +14,8 @@ Projects
 
 - [Practice project 3](ColoredMarkers) - Set of Colored Markers
 
+- [Practice project 4](RegistrationForm) - Registration Form
+
 - [Certification project 1](Survey_Form) - Survey Form
 
 
