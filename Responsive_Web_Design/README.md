@@ -18,5 +18,7 @@ Projects
 
 - [Certification project 1](Survey_Form) - Survey Form
 
---- 
+---
 - [Practice project 5](RothkoPainting) - Rothko Painting
+
+- [Practice project 6](PhotoGallery) - Photo Gallery
