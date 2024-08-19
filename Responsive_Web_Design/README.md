@@ -24,3 +24,5 @@ Projects
 - [Practice project 6](PhotoGallery) - Photo Gallery
 
 - [Practice project 7](NutritionLabel) - Nutrition Label
+
+- [Practice project 8](AccessibilityQuiz) - Accessibility Quiz
