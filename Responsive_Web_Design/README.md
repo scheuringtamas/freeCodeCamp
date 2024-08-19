@@ -22,3 +22,5 @@ Projects
 - [Practice project 5](RothkoPainting) - Rothko Painting
 
 - [Practice project 6](PhotoGallery) - Photo Gallery
+
+- [Practice project 7](NutritionLabel) - Nutrition Label
