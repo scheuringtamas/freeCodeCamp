@@ -26,3 +26,8 @@ Projects
 - [Practice project 7](NutritionLabel) - Nutrition Label
 
 - [Practice project 8](AccessibilityQuiz) - Accessibility Quiz
+
+- [Certification project 2](TributePage) - Tribute Page
+
+---
+
