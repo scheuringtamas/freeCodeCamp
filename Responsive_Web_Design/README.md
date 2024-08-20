@@ -30,4 +30,5 @@ Projects
 - [Certification project 2](TributePage) - Tribute Page
 
 ---
+- [Practice project 9](BalanceSheet) - Balance Sheet
 
