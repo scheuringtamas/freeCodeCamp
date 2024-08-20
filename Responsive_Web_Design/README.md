@@ -33,3 +33,5 @@ Projects
 - [Practice project 9](BalanceSheet) - Balance Sheet
 
 - [Practice project 10](CatPainting) - Cat Painting
+
+- [Practice project 11](Piano) - Piano
