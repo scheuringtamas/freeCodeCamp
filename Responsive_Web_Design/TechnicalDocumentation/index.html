@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="left-side">
+      <nav id="navbar">
+        <header class="nav-header"><h1>TypeScript Documentation</h1></header>
+        <ul>
+          <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+          <li>
+            <a href="#What_you_should_already_know" class="nav-link"
+              >What you should already know</a
+            >
+          </li>
+          <li>
+            <a href="#TypeScript_and_JavaScript" class="nav-link"
+              >TypeScript and JavaScript</a
+            >
+          </li>
+          <li><a href="#Hello_World" class="nav-link">Hello World</a></li>
+          <li><a href="#Variables" class="nav-link">Variables</a></li>
+          <li>
+            <a href="#Declaring_Variables" class="nav-link"
+              >Declaring Variables</a
+            >
+          </li>
+          <li><a href="#Variable_Scope" class="nav-link">Variable Scope</a></li>
+          <li><a href="#Constants" class="nav-link">Constants</a></li>
+          <li><a href="#Data_Types" class="nav-link">Data Types</a></li>
+          <li>
+            <a href="#if...else_statement" class="nav-link"
+              >if...else statement</a
+            >
+          </li>
+          <li>
+            <a href="#while_statement" class="nav-link">while statement</a>
+          </li>
+          <li>
+            <a href="#Function_Declarations" class="nav-link"
+              >Function Declarations</a
+            >
+          </li>
+          <li><a href="#Reference" class="nav-link">Reference</a></li>
+        </ul>
+      </nav>
+    </div>
+    <main id="main-doc">
+      <div class="right-side">
+        <section class="main-section" id="Introduction">
+          <header>
+            <h1>Introduction</h1>
+          </header>
+          <p>
+            TypeScript is a strongly typed, object-oriented, compiled language.
+            Developed and maintained by Microsoft, it is a strict syntactical
+            superset of JavaScript and adds optional static typing to the
+            language. TypeScript is designed for the development of large
+            applications and transcompiles to JavaScript. This means any valid
+            JavaScript code is also valid TypeScript code, making TypeScript
+            both versatile and powerful for developers who wish to write
+            cleaner, more maintainable code.
+          </p>
+          <p>
+            TypeScript contains a standard library of objects, types, and
+            interfaces, along with a rich set of language elements such as
+            enums, tuples, and access modifiers. It is often used in conjunction
+            with modern JavaScript frameworks, providing enhanced tooling and
+            static analysis. Additionally, TypeScript can be extended for
+            various purposes:
+          </p>
+          <ul>
+            <li>
+              Client-side TypeScript: Just like JavaScript, TypeScript can be
+              used to build complex front-end applications. However,
+              TypeScript’s static type checking helps catch errors early during
+              development, leading to more robust and maintainable code.
+            </li>
+            <li>
+              Server-side TypeScript: TypeScript is also commonly used with
+              Node.js to write server-side code. TypeScript’s modules and
+              interfaces make it an excellent choice for large-scale server
+              applications that require clear structure and scalability.
+            </li>
+          </ul>
+        </section>
+        <section class="main-section" id="What_you_should_already_know">
+          <header>
+            <h1>What you should already know</h1>
+          </header>
+          <p>This guide assumes you have the following basic background:</p>
+          <ul>
+            <li>
+              A general understanding of the Internet and the World Wide Web
+              (WWW).
+            </li>
+            <li>Good working knowledge of JavaScript.</li>
+            <li>
+              Some experience with object-oriented programming. If you are new
+              to TypeScript or programming in general, it’s recommended to start
+              with basic JavaScript tutorials before moving on to TypeScript.
+            </li>
+          </ul>
+        </section>
+        <section class="main-section" id="TypeScript_and_JavaScript">
+          <header>
+            <h1>TypeScript and JavaScript</h1>
+          </header>
+          <p>
+            TypeScript and JavaScript are closely related but differ in a few
+            key areas. While TypeScript builds on JavaScript by adding optional
+            static types, it retains JavaScript’s dynamic and flexible nature.
+            The addition of types allows developers to specify the data types of
+            variables and function returns, helping prevent type-related errors
+            that can occur in JavaScript.
+          </p>
+          <p>
+            TypeScript also introduces interfaces and type aliases, which
+            provide a way to define and enforce the structure of objects. Unlike
+            JavaScript’s prototype-based inheritance, TypeScript supports a
+            class-based object model, similar to traditional object-oriented
+            programming languages like Java or C#. TypeScript classes include
+            features like inheritance, access modifiers (public, private,
+            protected), and abstract classes.
+          </p>
+          <p>
+            Moreover, TypeScript is compiled to JavaScript. The TypeScript
+            compiler checks for type errors and converts TypeScript code into
+            clean, readable JavaScript that can run on any browser or JavaScript
+            engine.
+          </p>
+        </section>
+        <section class="main-section" id="Hello_World">
+          <header>
+            <h1>Hello World</h1>
+          </header>
+          <p>
+            To get started with writing TypeScript, you can create a simple
+            "Hello World" program:
+          </p>
+          <code
+            >function greet(name: string): void { console.log(`Hello, ${name}`);
+            } greet("World");
+          </code>
+          <p>
+            This function takes a string as an argument and logs a greeting
+            message to the console. The : string annotation specifies that the
+            name parameter must be a string, and : void indicates that the
+            function does not return a value.
+          </p>
+        </section>
+        <section class="main-section" id="Variables">
+          <header><h1>Variables</h1></header>
+          <p>
+            Variables in TypeScript can be declared using let, const, or var.
+            However, using let and const is recommended due to their block scope
+            and immutability, respectively.
+          </p>
+          <p>
+            A TypeScript identifier must start with a letter, underscore (_), or
+            dollar sign ($); subsequent characters can also be digits (0-9).
+            TypeScript is case-sensitive, so Name and name would be considered
+            different identifiers.
+          </p>
+        </section>
+        <section class="main-section" id="Declaring_Variables">
+          <header>
+            <h1>Declaring Variables</h1>
+          </header>
+          <p>
+            You can declare variables in TypeScript similarly to JavaScript, but
+            with optional type annotations:
+          </p>
+          <code>
+            let isDone: boolean = false; let count: number = 42; let name:
+            string = "John";
+          </code>
+          <p>
+            TypeScript’s type annotations make it clear what type of data each
+            variable should hold, helping to prevent errors during development.
+          </p>
+        </section>
+        <section class="main-section" id="Variable_Scope">
+          <header>
+            <h1>Variable Scope</h1>
+          </header>
+          <p>
+            TypeScript follows the same scoping rules as JavaScript, with
+            additional support for block-scoped variables using let and const. A
+            variable declared outside of any function is considered global,
+            while variables declared inside a function or block are local to
+            that function or block.
+          </p>
+          <code>
+            if (true) { let x = 5; console.log(x); // 5 } console.log(x); //
+            Error: x is not defined
+          </code>
+          <p>
+            In this example, x is scoped to the block, so trying to access it
+            outside the block results in an error.
+          </p>
+        </section>
+        <section class="main-section" id="Constants">
+          <header><h1>Constants</h1></header>
+          <p>
+            TypeScript allows you to declare read-only constants using the const
+            keyword. Once a constant is assigned a value, it cannot be changed.
+          </p>
+          <code>const PI: number = 3.14; </code>
+        </section>
+        <section class="main-section" id="Data_Types">
+          <header><h1>Data Types</h1></header>
+          <p>
+            TypeScript supports several basic data types, many of which are
+            similar to JavaScript:
+          </p>
+          <ul>
+            <li>boolean - Represents true or false values.</li>
+            <li>
+              number - Represents both integer and floating-point numbers.
+            </li>
+            <li>string - Represents text data.</li>
+            <li>null and undefined - Represent absence of value.</li>
+            <li>any - Represents any data type, useful for dynamic content.</li>
+            <li>
+              void - Represents the absence of any type, usually used for
+              functions that do not return a value.
+            </li>
+          </ul>
+          <p>Additionally, TypeScript introduces new types like:</p>
+          <ul>
+            <li>
+              tuple - Represents an array with a fixed number of elements with
+              specific types.
+            </li>
+            <li>enum - A way to define a set of named constants.</li>
+            <li>
+              unknown - Similar to any, but safer and requires explicit type
+              checking before being used.
+            </li>
+            <li>
+              never - Represents values that never occur, typically used for
+              functions that never return.
+            </li>
+          </ul>
+        </section>
+        <section class="main-section" id="if...else_statement">
+          <header><h1>if...else statement</h1></header>
+          <p>TypeScript’s if...else statement is identical to JavaScript’s:</p>
+          <code>
+            if (condition) // statement if condition is true else { // statement
+            if condition is false }
+          </code>
+        </section>
+        <section class="main-section" id="while_statement">
+          <header><h1>while statement</h1></header>
+          <p>
+            The while loop in TypeScript functions just like in JavaScript, but
+            with optional type annotations for variables involved:
+          </p>
+          <code
+            >let n: number = 0; let x: number = 0; while (n < 3) { n++; x += n;
+            }
+          </code>
+        </section>
+        <section class="main-section" id="Function_Declarations">
+          <header><h1>Function Declarations</h1></header>
+          <p>
+            Functions in TypeScript are defined using the function keyword, with
+            the addition of type annotations for parameters and return types:
+          </p>
+          <code
+            >function square(num: number): number { return num * num; }
+          </code>
+          <p>
+            This function takes a number as an argument and returns its square.
+            The : number annotation after num ensures that the argument must be
+            a number, and the annotation after the parentheses specifies the
+            return type.
+          </p>
+        </section>
+        <section class="main-section" id="Reference">
+          <header><h1>Reference</h1></header>
+          <p>
+            All documentation in this page is based on TypeScript Handbook and
+            other resources from the
+            <a
+              href="https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html"
+              class="reference-link"
+              >TypeScript documentation.</a
+            >
+          </p>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
