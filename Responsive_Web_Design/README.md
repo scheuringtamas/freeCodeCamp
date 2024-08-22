@@ -35,3 +35,7 @@ Projects
 - [Practice project 10](CatPainting) - Cat Painting
 
 - [Practice project 11](Piano) - Piano
+
+- [Certification project 3](TechnicalDocumentation) - Technical Documentation Page
+
+---
