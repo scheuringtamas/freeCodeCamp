@@ -39,3 +39,4 @@ Projects
 - [Certification project 3](TechnicalDocumentation) - Technical Documentation Page
 
 ---
+- [Practice project 12](CitySkyline) - City Skyline
