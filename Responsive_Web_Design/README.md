@@ -42,3 +42,7 @@ Projects
 - [Practice project 12](CitySkyline) - City Skyline
 
 - [Practice project 13](Magazine) - Magazine
+
+- [Certification project 4](ProductLandingPage) - Product Landing Page
+
+---
