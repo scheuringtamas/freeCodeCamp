@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="title-logo">
+        <img src="images/candle.jpeg" alt="Candle logo" id="header-img" />
+        <h1 class="title">Crafted Candles</h1>
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#process" class="nav-link">How It Works</a></li>
+          <li><a href="#pricingGrid" class="nav-link">Pricing</a></li>
+          <li>
+            <a href="#videoID" class="nav-link">Hand-poured, natural candles</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form
+        id="form"
+        method="post"
+        action="https://www.freecodecamp.com/email-submit"
+      >
+        <h2>Hand-Poured Artisan Candles</h2>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email address"
+        />
+        <input type="submit" id="submit" value="GET STARTED" />
+      </form>
+      <div class="how" id="process">
+        <div class="how-list">
+          <img src="images/oil.jpg" alt="oil logo" class="icon" />
+          <div>
+            <h2>Premium Wax and Essential Oils</h2>
+            <p>
+              Our candles are made with 100% natural soy wax and infused with
+              high-quality essential oils for a clean, long-lasting burn.
+            </p>
+          </div>
+        </div>
+        <div class="how-list">
+          <img src="images/package.jpg" alt="package" class="icon" />
+          <div>
+            <h2>Eco-Friendly Packaging</h2>
+            <p>
+              We ship your candles in recyclable packaging. If you’re not
+              satisfied, we offer hassle-free returns.
+            </p>
+          </div>
+        </div>
+        <div class="how-list">
+          <img src="images/quality.jpg" alt="quality" class="icon" />
+          <div>
+            <h2>Quality and Purity</h2>
+            <p>
+              Each candle is carefully crafted to ensure the perfect scent throw
+              and a clean burn with no toxins.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="videoFrame" id="videoID">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/OhgL1SV6HnM?si=bTak6w_I5BCd6vRo"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="price-grid" id="pricingGrid">
+        <div class="pricing">
+          <div class="pricing-header">Lavender Bliss</div>
+          <p class="price">30$</p>
+          <ul class="price-list">
+            <li>Calming lavender scent</li>
+            <li>Burns up to 40 hours</li>
+            <li>Hand-poured with natural ingredients</li>
+            <li>Comes in a reusable glass jar</li>
+          </ul>
+          <button class="select-button1">SELECT</button>
+        </div>
+        <div class="pricing">
+          <div class="pricing-header">Citrus Sunrise</div>
+          <p class="price">35$</p>
+          <ul class="price-list">
+            <li>Uplifting citrus blend</li>
+            <li>Burns up to 50 hours</li>
+            <li>Made with pure essential oils</li>
+            <li>Includes a decorative lid</li>
+          </ul>
+          <button class="select-button2">SELECT</button>
+        </div>
+        <div class="pricing">
+          <div class="pricing-header">Vanilla Spice</div>
+          <p class="price">25$</p>
+          <ul class="price-list">
+            <li>Warm and cozy vanilla aroma</li>
+            <li>Burns up to 35 hours</li>
+            <li>Perfect for relaxation</li>
+            <li>Wrapped in eco-friendly packaging</li>
+          </ul>
+          <button class="select-button3">SELECT</button>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="terms">
+          <p>Privacy</p>
+          <p>Term</p>
+          <p>Contact</p>
+        </div>
+        <p>Copyright 2024, Hand-Poured Artisan Candles</p>
+      </div>
+    </main>
+  </body>
+</html>
