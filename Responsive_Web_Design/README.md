@@ -46,3 +46,4 @@ Projects
 - [Certification project 4](ProductLandingPage) - Product Landing Page
 
 ---
+- [Practice project 14](FerrisWheel) - Ferris Wheel
