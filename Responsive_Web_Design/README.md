@@ -51,3 +51,7 @@ Projects
 - [Practice project 15](Penguin) - Penguin
 
 - [Certification project 5](PersonalPortfolio) - Personal Portfolio
+---
+
+
+<img src="https://github.com/scheuringtamas/freeCodeCamp/blob/main/Responsive_Web_Design/responsive-web-design_certificate.png"/>
