@@ -49,3 +49,5 @@ Projects
 - [Practice project 14](FerrisWheel) - Ferris Wheel
 
 - [Practice project 15](Penguin) - Penguin
+
+- [Certification project 5](PersonalPortfolio) - Personal Portfolio
