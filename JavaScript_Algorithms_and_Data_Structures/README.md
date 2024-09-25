@@ -7,3 +7,5 @@ You'll also learn about Object Oriented Programming (OOP), Functional Programmin
 Projects
 ---  
 - [Practice project 1](PyramidGenerator) - Pyramid Generator
+
+- [Practice project 2](GradebookApp) - Gradebook App
