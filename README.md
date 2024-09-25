@@ -7,5 +7,6 @@ I have been actively working on freeCodeCamp's certification programs to improve
 ## Certifications
 
 - [Responsive Web Design](Responsive_Web_Design)
+- [JavaScript Algorithms and Data Structures](JavaScript_Algorithms_and_Data_Structures)
 
 
